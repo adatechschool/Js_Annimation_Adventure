@@ -61,4 +61,5 @@ function draw()
     //ctx.fillRect(xpos + rand(20) - rand(20), ypos + rand(20) - rand(20), rand(60), rand(60));   
 }
 
+//ctx.onmousemove = draw;
 setInterval(draw, 10);
